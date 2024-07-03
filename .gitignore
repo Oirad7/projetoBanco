@@ -1,0 +1,44 @@
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Ignore bin directory
+/bin/
+
+# Ignore target directory (for Maven/Gradle projects)
+target/
+
+# Ignore build directory (for Gradle projects)
+build/
+
+# Ignore Maven's local repository directory
+.mvn/
+
+# Ignore Gradle wrapper files
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore compiled Java files
+*.class
+
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other common files
+*.swp
+*.swo
+*~
